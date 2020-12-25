@@ -1,0 +1,18 @@
+spring:
+  jackson:
+    time-zone: GMT+8
+  session:
+    store-type: redis
+    redis:
+      flush-mode: immediate
+  datasource:
+    username: bs
+    password: zxcvbnm
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://139.159.249.214:3306/bug_system?useSSL=false&serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=UTF-8
+  security:
+    user:
+      name: kailin
+      password: wkl000
+server:
+  port: 8080
